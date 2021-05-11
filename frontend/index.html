@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="logo" href="favicon.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <!-- Fontawesome -->
@@ -14,10 +16,104 @@
 
     <title>WebarchForms</title>
 </head>
-<body>
-    <h2>Webarch Forms</h2>
 
+<body class="main-layout">
+    <!-- loader  -->
+    <!-- <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div> -->
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Login</a>
+            <a href="#">Services</a>
+            <a href="#">Create Form</a>
+            <a href="#">Contact</a>
+        </div>
+        <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()" id="nav-bars"><i class="fas fa-bars" ></i></span>
+        <div class="header">
+            <div class="white_bg">
+                <!-- end header inner -->
+                <!-- end header -->
+                <!-- banner -->
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-10"></div>
+                            <div class="col-lg-2">
+                                <a class="login" href="#"><i class="fas fa-sign-in-alt"></i> LOGIN</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-7">
+                            <div class="text-bg">
+                                <span><img src="images/logo.png" class="grow" height="50px" width="50px"> WEBARCH</span>
+                                <h1>F O R M S</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, corrupti id reiciendis, quisquam culpa veniam pariatur doloribus facere, amet quis vitae. Earum atque quasi odio explicabo similique animi tenetur eius.
+                                </p>
+                                <a class="grow read_more" href="#"><i class="fas fa-meteor"></i> Get Started</a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-5">
+                            <div class="text_img grow">
+                                <figure><img src="images/ban_img.png" alt="#" /></figure>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </section>
+        </div>
+    </header>
+    <!-- end banner -->
 
+    <!-- services section -->
+    <div class="services">
+        <div class="container">
+            <div class="row text-center">
+                <div class=" col-md-12">
+                    <div class="text-center titlepage">
+                        <h2>Services</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div id="ho_color" class="services_main">
+                        <i><img src="images/forms.png" alt="#"/></i>
+
+                        <h3>Create Forms</h3>
+                        <p>ncididunt ut labore et dolore magna aliqua
+                        </p>
+                        <a class="read_more grow" href="#">More</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 ">
+                    <div id="ho_color" class="services_main">
+                        <i><img src="images/template.png" alt="#"/></i>
+
+                        <h3>Templates</h3>
+                        <p>ncididunt ut labore et dolore magna aliqua
+                        </p>
+                        <a class="read_more grow" href="#">More</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div id="ho_color" class="services_main">
+                        <i><img src="images/services_icon4.png " alt="#"/></i>
+
+                        <h3>Contact</h3>
+                        <p>ncididunt ut labore et dolore magna aliqua
+                        </p>
+                        <a class="read_more grow" href="#">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end services section -->
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
@@ -25,4 +121,5 @@
     <!-- Local Js -->
     <script src="./js/index.js"></script>
 </body>
+
 </html>
