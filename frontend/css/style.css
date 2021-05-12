@@ -740,6 +740,17 @@ ul.social_icon li {
     .footer_inner1 {
         margin-left: 40%;
     }
+    .services_main img {
+        height: 80px;
+    }
+    .read_more {
+        font-size: 16px;
+        max-width: 100px;
+        width: 88%;
+        line-height: 20px;
+        text-align: center;
+        padding: 10px 0px;
+    }
 }
 
 
@@ -758,10 +769,45 @@ ul.social_icon li {
         opacity: 0.9;
         padding: 30px 35px;
     }
+    .services {
+        padding: 20px 0 0px 0;
+        margin-top: 80px;
+        height: 150vh;
+    }
+    .titlepage h2 {
+        font-size: 38px;
+        color: #202020;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    .titlepage {
+        padding: 0;
+    }
+    .services_main {
+        margin-top: 15%;
+    }
+    .services_main h3 {
+        font-size: 28px;
+        line-height: 25px;
+        padding-top: 15px;
+    }
+    .services_main p {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .services_main img {
+        height: 60px;
+    }
     .read_more {
         display: inline;
         justify-content: center;
         padding: 20px 20px;
+    }
+    .read_more2 {
+        display: inline;
+        justify-content: center;
+        padding: 11px 20px;
     }
     .login {
         font-size: 15px;
@@ -801,6 +847,11 @@ ul.social_icon li {
         display: inline;
         justify-content: center;
         padding: 13px 13px;
+    }
+    .read_more2 {
+        display: inline;
+        justify-content: center;
+        padding: 11px 20px;
     }
     .login {
         font-size: 15px;
