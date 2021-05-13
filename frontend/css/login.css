@@ -253,6 +253,7 @@ button img {
 
 .btn {
     border-radius: 49px;
+    width: 180px;
     border-color: #17094c;
     background-color: lavender;
 }
@@ -343,10 +344,13 @@ a.forgot:hover {
         position: relative;
         width: 100%;
         min-height: 100vh;
-        background-color: #ececec;
+        background-color: #dddddd;
         overflow: hidden;
         border-radius: 0;
         margin-top: 0;
+    }
+    button {
+        background-color: #dddddd;
     }
 }
 
@@ -361,7 +365,7 @@ a.forgot:hover {
         width: 100%;
         left: 50%;
         top: 80%;
-        transform: translate(-50%, -80%);
+        transform: translate(-50%, -91%);
     }
     #nav-bars {
         color: black;
@@ -370,7 +374,7 @@ a.forgot:hover {
         position: relative;
         width: 100%;
         min-height: 100vh;
-        background-color: #ececec;
+        background-color: #dddddd;
         overflow: hidden;
         border-radius: 0;
         margin-top: 0;
