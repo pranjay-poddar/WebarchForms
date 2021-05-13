@@ -1,0 +1,378 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box !important;
+}
+
+
+/* The side navigation menu */
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 10;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d1d1d1;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #ffffff;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+#nav-bars {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+    z-index: 100;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* animation */
+
+.grow {
+    transition: all 0.8s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+body,
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    background-color: #ececec;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 3%;
+}
+
+.container:before {
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background: linear-gradient(-60deg, #17094c, #17095c);
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+}
+
+.forms-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5rem;
+    overflow: hidden;
+}
+
+form.login {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    z-index: 2;
+}
+
+img {
+    height: 50px;
+}
+
+h2.login {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #17094c;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0.4rem;
+}
+
+.input-field i {
+    text-align: center;
+    line-height: 55px;
+    color: #17094c;
+    font-size: 1.1rem;
+}
+
+.input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #17094c;
+}
+
+.input-field input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+}
+
+img {
+    height: 50px;
+}
+
+.btn-solid {
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #17094c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-text {
+    padding: .7rem 0;
+    font-size: 1rem;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+}
+
+button img {
+    height: 30px;
+    width: 30px;
+}
+
+.btn {
+    border-radius: 49px;
+    border-color: #17094c;
+    background-color: lavender;
+}
+
+.btn:hover {
+    background-color: #17094c;
+    color: #ececec;
+}
+
+a.forgot {
+    text-decoration: none;
+    color: black;
+}
+
+a.forgot:hover {
+    text-decoration: underline;
+    color: #17094c;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    display: flex;
+    width: 400px;
+    height: 330px;
+    transform: translateY(250px);
+    margin-left: 5%;
+}
+
+@media (max-width:1386px) {
+    .image {
+        width: 300px;
+        height: 260px;
+    }
+}
+
+@media (max-width:1195px) {
+    .image {
+        width: 250px;
+        height: 220px;
+        transform: translateY(180px);
+    }
+}
+
+@media (max-width:990px) {
+    .image {
+        width: 190px;
+        height: 170px;
+        transform: translateY(180px)
+    }
+}
+
+@media (max-width:768px) {
+    .image {
+        width: 220px;
+        height: 200px;
+        transform: translateY(170px);
+    }
+    .container {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #ececec;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width:785px) {
+    .image {
+        width: 190px;
+        height: 170px;
+        transform: translateY(120px);
+    }
+}
+
+@media (max-width:542px) {
+    .image {
+        width: 180px;
+        height: 160px;
+        transform: translateY(150px);
+    }
+    .container {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #ececec;
+        overflow: hidden;
+        border-radius: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width:485px) {
+    .container:before {
+        display: none;
+    }
+    .image {
+        display: none;
+    }
+    form.login {
+        width: 100%;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -80%);
+    }
+    #nav-bars {
+        color: black;
+    }
+    .container {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #ececec;
+        overflow: hidden;
+        border-radius: 0;
+        margin-top: 0;
+    }
+}
