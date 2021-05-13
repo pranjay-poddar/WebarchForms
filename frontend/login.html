@@ -12,19 +12,29 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!-- Local Css -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="shortcut icon" type="logo" href="favicon.png">
 
     <title>WebarchForms</title>
 </head>
 
 <body>
-     <section>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./login.html">Login</a>
+        <a href="./index.html#services">Services</a>
+        <a href="#">Create Form</a>
+        <a href="./index.html#contact">Contact</a>
+    </div>
+    <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()" id="nav-bars"><i class="fas fa-bars" id ="bars"></i></span>
+    <section>
         <div class="container">
             <div class="forms-container">
                 <div class="login">
                     <form action="" class="login">
 
-                        <h2 class="login text-center"><img src="logo.png" alt=""> Login</h2>
+                        <h2 class="login text-center"><img src="./images/logo.png" alt=""> Login</h2>
                         <div class="input-field text-center">
                             <i class="fas fa-user"></i>
                             <input type="email" placeholder="Email">
@@ -33,21 +43,21 @@
                             <i class="fas fa-lock"></i>
                             <input type="password" placeholder="Password">
                         </div>
-                        <a  class="forgot my-2 text-center text-decoration-underline" href="#">Forgot password?</a>
-                        <input type="submit" value="Login" class="btn-solid my-2 mx-5">
+                        <a class="forgot my-2 text-center text-decoration-underline" href="#">Forgot password?</a>
+                        <input type="submit" value="Login" class="btn-solid grow my-2 mx-5">
                         <p class="social-text text-center">Or Sign in with your Google Account</p>
-                        <!-- <div class="social-media"> -->
-                        <button>
-                        <img  class="images" src="google.png" alt="">
+                        <div class="social-media text-center">
+                            <button class="text-center">
+                        <img  class="images grow" src="./images/google.png" alt="google image">
                         </button>
-                        <p class="Or text-center my-2">----- Or -----</p>
-                        <input type="#" value="Register Now" class="btn">
+                            <p class="Or text-center my-2">----- Or -----</p>
+                            <input type="#" value="Register Now" class="btn">
 
-                        <!-- </div> -->
+                        </div>
                     </form>
                 </div>
                 <div class="panel left-panel">
-                    <img src="desk.png" class="image" alt="">
+                    <img src="./images/desk.png" class="image" alt="desk image">
                 </div>
             </div>
         </div>
