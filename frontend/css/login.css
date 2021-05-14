@@ -228,9 +228,9 @@ img {
     font-weight: 600;
     margin: 10px 0;
     transition: .5s;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .social-text {
@@ -349,6 +349,9 @@ a.forgot:hover {
         border-radius: 0;
         margin-top: 0;
     }
+    .btn-solid {
+        margin: 0;
+    }
     button {
         background-color: #dddddd;
     }
@@ -365,7 +368,7 @@ a.forgot:hover {
         width: 100%;
         left: 50%;
         top: 80%;
-        transform: translate(-50%, -91%);
+        transform: translate(-50%, -93%);
     }
     #nav-bars {
         color: black;
