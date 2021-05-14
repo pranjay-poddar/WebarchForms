@@ -7,7 +7,7 @@
 }
 
 
-/* The side navigation menu */
+/* The side navigation menu css start----------------------------- */
 
 .sidenav {
     height: 100%;
@@ -89,6 +89,9 @@
         font-size: 18px;
     }
 }
+
+
+/* navbar css end ------------------------------- */
 
 * {
     padding: 0;
