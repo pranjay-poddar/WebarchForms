@@ -112,12 +112,12 @@
 
 body {
     background-color: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Baloo Bhaina 2', sans-serif;
 }
 
 body,
 input {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Baloo Bhaina 2', sans-serif;
 }
 
 .container {
@@ -175,7 +175,7 @@ img {
 
 h2.login {
     font-size: 2.2rem;
-    font-weight: 800;
+    font-weight: 600;
     color: #17094c;
     margin-bottom: 10px;
 }
@@ -220,14 +220,13 @@ img {
 
 .btn-solid {
     width: 150px;
-    height: 49px;
+    height: 50px;
     border: none;
     outline: none;
     border-radius: 49px;
     cursor: pointer;
     background-color: #17094c;
     color: #ffffff;
-    text-transform: uppercase;
     font-weight: 600;
     margin: 10px 0;
     transition: .5s;
@@ -256,9 +255,12 @@ button img {
 
 .btn {
     border-radius: 49px;
-    width: 180px;
+    width: 150px;
+    height: 35px;
     border-color: #17094c;
     background-color: lavender;
+    /* line-height: 2; */
+    font-weight: 600;
 }
 
 .btn:hover {
@@ -285,7 +287,7 @@ a.forgot:hover {
     display: flex;
     width: 400px;
     height: 330px;
-    transform: translateY(250px);
+    transform: translateY(190px);
     margin-left: 5%;
 }
 
@@ -333,7 +335,7 @@ a.forgot:hover {
     .image {
         width: 190px;
         height: 170px;
-        transform: translateY(120px);
+        transform: translateY(70px);
     }
 }
 
@@ -341,7 +343,7 @@ a.forgot:hover {
     .image {
         width: 180px;
         height: 160px;
-        transform: translateY(150px);
+        transform: translateY(45px);
     }
     .container {
         position: relative;
@@ -371,7 +373,7 @@ a.forgot:hover {
         width: 100%;
         left: 50%;
         top: 80%;
-        transform: translate(-50%, -93%);
+        transform: translate(-50%, -100%);
     }
     #nav-bars {
         color: black;
