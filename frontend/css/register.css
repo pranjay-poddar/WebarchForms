@@ -108,7 +108,7 @@
 /* ********Utilities Classes******** */
 
 .customfontbaloo {
-    font-family: 'Baloo Bhaina 2', cursive;
+    font-family: 'Baloo Bhaina 2', sans-serif;
 }
 
 .customfontubuntu {
@@ -127,6 +127,7 @@
 
 body {
     background-color: black;
+    font-family: 'Baloo Bhaina 2', sans-serif;
 }
 
 .container {
