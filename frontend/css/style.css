@@ -4,7 +4,7 @@
 /* ANIMATION  */
 
 .grow {
-    transition: all 0.8s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .grow:hover {
@@ -425,16 +425,12 @@ ul.btn li:last-child {
 .down-arrow a>i {
     /* background-color: #17094c; */
     border-radius: 5px;
-    color: #17094c;
-    height: 30px;
-    width: 30px;
-    font-size: 30px;
+    color: rgb(236, 236, 236);
+    font-size: 6vh;
     text-align: center;
     margin-top: 5px;
-}
-
-.down-arrow a>i:hover {
-    transition-timing-function: ease-in-out;
+    position: absolute;
+    bottom: 2vh;
 }
 
 .white_bg {
@@ -464,25 +460,25 @@ ul.btn li:last-child {
 .text-bg span {
     color: #17094c;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 300%;
     line-height: 50px;
 }
 
 .text-bg h1 {
     color: #050505;
-    font-size: 66px;
-    line-height: 70px;
-    padding-bottom: 35px;
+    font-size: 500%;
+    line-height: 115%;
+    padding-bottom: 6vh;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .text-bg p {
-    line-height: 28px;
+    line-height: 5vh;
     padding-bottom: 50px;
     display: block;
     color: #1f1f1f;
-    font-size: 17px;
+    font-size: 3vh;
 }
 
 .text-bg .read_more {
@@ -495,7 +491,7 @@ ul.btn li:last-child {
 
 .text_img figure img {
     width: 100%;
-    margin-top: 15%;
+    margin-top: 20vh;
 }
 
 .carousel-caption {
@@ -513,7 +509,7 @@ ul.btn li:last-child {
 .titlepage h2 {
     font-size: 45px;
     color: #202020;
-    line-height: 40px;
+    line-height: 10px;
     font-weight: normal;
     padding: 0;
     text-transform: uppercase;
@@ -560,7 +556,7 @@ ul.btn li:last-child {
 .services {
     background-color: #070218;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     padding: 70px 0 60px 0;
     margin-top: 80px;
 }
@@ -606,7 +602,7 @@ ul.btn li:last-child {
     background: transparent;
     border: #fff solid 1px;
     margin: 0 auto;
-    transition: ease-in all 0.5s;
+    transition: ease-in all 0.1s;
     text-transform: none;
 }
 
@@ -622,7 +618,7 @@ ul.btn li:last-child {
 #ho_color:hover .read_more {
     color: #957dce !important;
     border: #957dce solid 1px;
-    transition: ease-in all 0.5s;
+    transition: ease-in all 0.1s;
 }
 
 #ho_color:hover.services_main .ho {
@@ -767,14 +763,15 @@ ul.social_icon li {
         padding: 10px 0px;
     }
     .down-arrow a>i {
-        background-color: rgb(236, 236, 236);
-        border-radius: 5px;
-        color: #17094c;
-        height: 30px;
-        width: 30px;
-        font-size: 28px;
-        text-align: center;
-        margin-top: 60px;
+        color: rgb(236, 236, 236);
+    }
+    .text-bg h1 {
+        color: #050505;
+        font-size: 450%;
+        line-height: 115%;
+        padding-bottom: 5vh;
+        font-weight: 600;
+        text-transform: uppercase;
     }
 }
 
@@ -797,13 +794,16 @@ ul.social_icon li {
     .services {
         padding: 20px 0 0px 0;
         margin-top: 80px;
-        height: 150vh;
+        height: auto;
     }
     .titlepage h2 {
         font-size: 38px;
         color: #202020;
         line-height: 40px;
         font-weight: 500;
+    }
+    .down-arrow a>i {
+        left: 47%;
     }
     .titlepage {
         padding: 0;
@@ -846,6 +846,7 @@ ul.social_icon li {
     }
     .text-bg p {
         font-size: 16px;
+        padding-bottom: 6vh;
     }
     .text-bg span {
         font-size: 37px;
@@ -860,7 +861,7 @@ ul.social_icon li {
         width: 300px;
     }
     .footer_inner1 {
-        margin-left: 40%;
+        margin-left: 36%;
     }
 }
 
@@ -890,6 +891,8 @@ ul.social_icon li {
     }
     .text-bg p {
         font-size: 15px;
+        padding-bottom: 6vh;
+        font-weight: 500;
     }
     .text-bg span {
         font-size: 30px;
@@ -900,5 +903,62 @@ ul.social_icon li {
     }
     .footer_inner1 {
         margin-left: 35%;
+    }
+}
+
+@media (min-width: 1390px) {
+    .text-bg {
+        text-align: left;
+        margin-top: 6vmin;
+    }
+    .text-bg h1 {
+        color: #050505;
+        font-size: 600%;
+        line-height: 115%;
+        padding-bottom: 6vh;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .text_img figure img {
+        width: 106%;
+        margin-top: 23vh;
+    }
+    .read_more {
+        font-size: 2vh;
+        background-color: #17094c;
+        max-width: 163px;
+        width: 130%;
+        color: #fff !important;
+        display: block;
+        border-radius: 7px;
+        font-weight: 400;
+        line-height: 5vh;
+        text-align: center;
+        padding: 15px 0;
+        text-transform: uppercase;
+    }
+    .text-bg span {
+        color: #17094c;
+        font-weight: bold;
+        font-size: 376%;
+        line-height: 50px;
+    }
+    .head-1 {
+        height: 7vh;
+        width: 7vh;
+    }
+    .down-arrow a>i {
+        /* background-color: #17094c; */
+        color: rgb(236, 236, 236);
+        text-align: center;
+        margin-top: 5px;
+        position: absolute;
+        bottom: 4vh;
+    }
+    #nav-bars {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-size: 40px;
     }
 }
