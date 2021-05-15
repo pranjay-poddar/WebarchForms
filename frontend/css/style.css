@@ -424,7 +424,7 @@ ul.btn li:last-child {
 
 .down-arrow a>i {
     /* background-color: #17094c; */
-    color: rgb(236, 236, 236);
+    color: #b4b4b4;
     font-size: 6vh;
     text-align: center;
     margin-top: 5px;
@@ -960,13 +960,6 @@ ul.social_icon li {
     .head-1 {
         height: 7vh;
         width: 7vh;
-    }
-    .down-arrow a>i {
-        /* background-color: #17094c; */
-        text-align: center;
-        margin-top: 5px;
-        position: absolute;
-        bottom: 40px;
     }
     #nav-bars {
         position: absolute;
