@@ -424,12 +424,12 @@ ul.btn li:last-child {
 
 .down-arrow a>i {
     /* background-color: #17094c; */
-    color: rgb(179, 179, 179);
+    color: rgb(236, 236, 236);
     font-size: 6vh;
     text-align: center;
+    margin-top: 5px;
     position: absolute;
-    bottom: 0;
-    left: 47%;
+    bottom: 4px;
 }
 
 .white_bg {
@@ -857,7 +857,7 @@ ul.social_icon li {
         width: 300px;
     }
     .footer_inner1 {
-        margin-left: 34%;
+        margin-left: 37%;
     }
 }
 
@@ -898,7 +898,7 @@ ul.social_icon li {
         line-height: 43px;
     }
     .footer_inner1 {
-        margin-left: 35%;
+        margin-left: 31%;
     }
 }
 
