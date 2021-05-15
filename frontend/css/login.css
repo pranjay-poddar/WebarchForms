@@ -287,7 +287,7 @@ a.forgot:hover {
     display: flex;
     width: 400px;
     height: 330px;
-    transform: translateY(250px);
+    transform: translateY(190px);
     margin-left: 5%;
 }
 
@@ -335,7 +335,7 @@ a.forgot:hover {
     .image {
         width: 190px;
         height: 170px;
-        transform: translateY(120px);
+        transform: translateY(70px);
     }
 }
 
@@ -343,7 +343,7 @@ a.forgot:hover {
     .image {
         width: 180px;
         height: 160px;
-        transform: translateY(150px);
+        transform: translateY(45px);
     }
     .container {
         position: relative;
