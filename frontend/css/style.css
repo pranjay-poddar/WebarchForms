@@ -424,12 +424,9 @@ ul.btn li:last-child {
 
 .down-arrow a>i {
     /* background-color: #17094c; */
-    color: rgb(179, 179, 179);
+    color: #b4b4b4;
     font-size: 6vh;
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 47%;
 }
 
 .white_bg {
@@ -473,7 +470,7 @@ ul.btn li:last-child {
 }
 
 .text-bg p {
-    line-height: 5vh;
+    line-height: 4vh;
     padding-bottom: 50px;
     display: block;
     color: #1f1f1f;
@@ -557,7 +554,7 @@ ul.btn li:last-child {
     background-repeat: no-repeat;
     height: auto;
     padding: 70px 0 60px 0;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .services .titlepage {
@@ -789,7 +786,7 @@ ul.social_icon li {
     }
     .services {
         padding: 20px 0 0px 0;
-        margin-top: 80px;
+        margin-top: 0px;
         height: auto;
     }
     .titlepage h2 {
@@ -798,14 +795,11 @@ ul.social_icon li {
         line-height: 40px;
         font-weight: 500;
     }
-    .down-arrow a>i {
-        left: 47%;
-    }
     .titlepage {
         padding: 0;
     }
     .services_main {
-        margin-top: 15%;
+        margin-top: 10%;
     }
     .services_main h3 {
         font-size: 28px;
@@ -841,8 +835,8 @@ ul.social_icon li {
         text-align: center;
     }
     .text-bg p {
-        font-size: 16px;
-        padding-bottom: 6vh;
+        font-size: 1.4em;
+        padding-bottom: 3em;
     }
     .text-bg span {
         font-size: 37px;
@@ -857,7 +851,7 @@ ul.social_icon li {
         width: 300px;
     }
     .footer_inner1 {
-        margin-left: 34%;
+        margin-left: 37%;
     }
 }
 
@@ -886,9 +880,9 @@ ul.social_icon li {
         text-align: center;
     }
     .text-bg p {
-        font-size: 15px;
-        padding-bottom: 6vh;
-        font-weight: 500;
+        font-size: 1.1em;
+        padding-bottom: 3em;
+        font-weight: 400;
     }
     .text-bg span {
         font-size: 30px;
@@ -898,7 +892,25 @@ ul.social_icon li {
         line-height: 43px;
     }
     .footer_inner1 {
-        margin-left: 35%;
+        margin-left: 31%;
+    }
+}
+
+@media (max-width: 320px) {
+    .text-bg span {
+        font-size: 18px;
+    }
+    .text-bg h1 {
+        font-size: 27px;
+        line-height: 12px;
+    }
+    .text-bg p {
+        font-size: 1em;
+        padding-bottom: 2em;
+        font-weight: 400;
+    }
+    .read_more {
+        font-size: 14px;
     }
 }
 
@@ -942,13 +954,6 @@ ul.social_icon li {
     .head-1 {
         height: 7vh;
         width: 7vh;
-    }
-    .down-arrow a>i {
-        /* background-color: #17094c; */
-        text-align: center;
-        margin-top: 5px;
-        position: absolute;
-        bottom: 40px;
     }
     #nav-bars {
         position: absolute;
