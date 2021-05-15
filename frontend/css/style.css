@@ -473,7 +473,7 @@ ul.btn li:last-child {
 }
 
 .text-bg p {
-    line-height: 5vh;
+    line-height: 4vh;
     padding-bottom: 50px;
     display: block;
     color: #1f1f1f;
@@ -841,8 +841,8 @@ ul.social_icon li {
         text-align: center;
     }
     .text-bg p {
-        font-size: 16px;
-        padding-bottom: 6vh;
+        font-size: 1.4em;
+        padding-bottom: 3em;
     }
     .text-bg span {
         font-size: 37px;
@@ -886,9 +886,9 @@ ul.social_icon li {
         text-align: center;
     }
     .text-bg p {
-        font-size: 15px;
-        padding-bottom: 6vh;
-        font-weight: 500;
+        font-size: 1.1em;
+        padding-bottom: 3em;
+        font-weight: 400;
     }
     .text-bg span {
         font-size: 30px;
@@ -899,6 +899,24 @@ ul.social_icon li {
     }
     .footer_inner1 {
         margin-left: 31%;
+    }
+}
+
+@media (max-width: 320px) {
+    .text-bg span {
+        font-size: 18px;
+    }
+    .text-bg h1 {
+        font-size: 27px;
+        line-height: 12px;
+    }
+    .text-bg p {
+        font-size: 1em;
+        padding-bottom: 2em;
+        font-weight: 400;
+    }
+    .read_more {
+        font-size: 14px;
     }
 }
 
