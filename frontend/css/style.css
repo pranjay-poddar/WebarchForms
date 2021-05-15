@@ -427,9 +427,6 @@ ul.btn li:last-child {
     color: #b4b4b4;
     font-size: 6vh;
     text-align: center;
-    margin-top: 5px;
-    position: absolute;
-    bottom: 4px;
 }
 
 .white_bg {
@@ -557,7 +554,7 @@ ul.btn li:last-child {
     background-repeat: no-repeat;
     height: auto;
     padding: 70px 0 60px 0;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .services .titlepage {
@@ -789,7 +786,7 @@ ul.social_icon li {
     }
     .services {
         padding: 20px 0 0px 0;
-        margin-top: 80px;
+        margin-top: 0px;
         height: auto;
     }
     .titlepage h2 {
@@ -798,14 +795,11 @@ ul.social_icon li {
         line-height: 40px;
         font-weight: 500;
     }
-    .down-arrow a>i {
-        left: 47%;
-    }
     .titlepage {
         padding: 0;
     }
     .services_main {
-        margin-top: 15%;
+        margin-top: 10%;
     }
     .services_main h3 {
         font-size: 28px;
