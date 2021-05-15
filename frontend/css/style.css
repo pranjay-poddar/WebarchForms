@@ -430,7 +430,7 @@ ul.btn li:last-child {
     text-align: center;
     margin-top: 5px;
     position: absolute;
-    bottom: 2vh;
+    bottom: 4px;
 }
 
 .white_bg {
@@ -953,7 +953,7 @@ ul.social_icon li {
         text-align: center;
         margin-top: 5px;
         position: absolute;
-        bottom: 4vh;
+        bottom: 40px;
     }
     #nav-bars {
         position: absolute;
