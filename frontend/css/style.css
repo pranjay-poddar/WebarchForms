@@ -424,13 +424,12 @@ ul.btn li:last-child {
 
 .down-arrow a>i {
     /* background-color: #17094c; */
-    border-radius: 5px;
-    color: rgb(236, 236, 236);
+    color: rgb(179, 179, 179);
     font-size: 6vh;
     text-align: center;
-    margin-top: 5px;
     position: absolute;
     bottom: 4px;
+    left: 47%;
 }
 
 .white_bg {
@@ -762,9 +761,6 @@ ul.social_icon li {
         text-align: center;
         padding: 10px 0px;
     }
-    .down-arrow a>i {
-        color: rgb(236, 236, 236);
-    }
     .text-bg h1 {
         color: #050505;
         font-size: 450%;
@@ -949,7 +945,6 @@ ul.social_icon li {
     }
     .down-arrow a>i {
         /* background-color: #17094c; */
-        color: rgb(236, 236, 236);
         text-align: center;
         margin-top: 5px;
         position: absolute;
