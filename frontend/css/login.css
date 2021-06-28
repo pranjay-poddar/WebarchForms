@@ -372,7 +372,7 @@ a.forgot:hover {
     form.login {
         width: 100%;
         left: 50%;
-        top: 80%;
+        top: 90%;
         transform: translate(-50%, -100%);
     }
     #nav-bars {
