@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!-- Fontawesome -->
@@ -20,65 +16,62 @@
     <link rel="shortcut icon" type="logo" href="favicon.png" />
 
     <title>WebarchForms</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="./login.html">Login</a>
-      <a href="./index.html#services">Services</a>
-      <a href="#">Create Form</a>
-      <a href="./index.html#contact">Contact</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./login.html">Login</a>
+        <a href="./index.html#services">Services</a>
+        <a href="#">Create Form</a>
+        <a href="./index.html#contact">Contact</a>
     </div>
     <!-- Use any element to open the sidenav -->
     <span onclick="openNav()" id="nav-bars"><i class="fas fa-bars" id="bars"></i></span>
     <section>
-      <div class="container">
-        <div class="forms-container">
-          <div class="login">
-            <form action="" class="login">
-              <h2 class="login text-center"><img src="./images/logo.png" alt="" /> Login</h2>
-              <div class="input-field text-center">
-                <i class="fas fa-envelope"></i>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div class="input-field text-center">
-                <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Password" />
-              </div>
-              <a class="forgot my-2 text-center text-decoration-underline" href="./forgot.html">Forgot password?</a>
+        <div class="container">
+            <div class="forms-container">
+                <div class="login">
+                    <form action="" class="login">
+                        <h2 class="login text-center"><img src="./images/logo.png" alt="" /> Login</h2>
+                        <div class="input-field text-center">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" placeholder="Email" />
+                        </div>
+                        <div class="input-field text-center">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Password" />
+                        </div>
+                        <a class="forgot my-2 text-center text-decoration-underline" href="./forgot.html">Forgot password?</a>
 
-              <div class="text-center">
-                <button type="submit" value="Login" class="btn-solid grow my-2">Login</button>
-              </div>
-              <p class="social-text text-center">Or Register a new account</p>
-              <div class="social-media text-center">
-                <button class="text-center">
+                        <div class="text-center">
+                            <button type="submit" value="Login" class="btn-solid grow my-2">Login</button>
+                        </div>
+                        <p class="social-text text-center">Or Register a new account</p>
+                        <div class="social-media text-center">
+                            <button class="text-center">
                   <img class="images grow" src="./images/google.png" alt="google image" />
                 </button>
-                <p class="Or text-center my-2">OR</p>
-                <p>
-                  <a href="./register.html" button class="btn">Register</a>
-                </p>
-              </div>
-            </form>
-          </div>
-          <div class="panel left-panel">
-            <img src="./images/desk.png" class="image" alt="desk image" />
-          </div>
+                            <p class="Or my-2">OR</p>
+                            <p>
+                                <a href="./register.html" button class="btn">Register</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+                <div class="panel left-panel">
+                    <img src="./images/desk.png" class="image" alt="desk image" />
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <!-- Local Js -->
     <script src="./js/index.js"></script>
-  </body>
+</body>
+
 </html>
