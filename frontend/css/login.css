@@ -74,7 +74,7 @@
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 
 #main {
-    transition: margin-left .5s;
+    transition: margin-left 0.5s;
     padding: 20px;
 }
 
@@ -112,12 +112,12 @@
 
 body {
     background-color: #000000;
-    font-family: 'Baloo Bhaina 2', sans-serif;
+    font-family: "Baloo Bhaina 2", sans-serif;
 }
 
 body,
 input {
-    font-family: 'Baloo Bhaina 2', sans-serif;
+    font-family: "Baloo Bhaina 2", sans-serif;
 }
 
 .container {
@@ -131,7 +131,7 @@ input {
 }
 
 .container:before {
-    content: '';
+    content: "";
     position: absolute;
     width: 2000px;
     height: 2000px;
@@ -229,14 +229,14 @@ img {
     color: #ffffff;
     font-weight: 600;
     margin: 10px 0;
-    transition: .5s;
+    transition: 0.5s;
     /* display: flex;
     align-items: center;
     justify-content: center; */
 }
 
 .social-text {
-    padding: .7rem 0;
+    padding: 0.7rem 0;
     font-size: 1rem;
 }
 
@@ -268,6 +268,28 @@ button img {
     color: #ececec;
 }
 
+p.Or {
+    position: relative;
+    left: 118px;
+    background: #ececec;
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+p.Or::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    z-index: -1;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 1px;
+    background: #000;
+}
+
 a.forgot {
     text-decoration: none;
     color: black;
@@ -291,14 +313,14 @@ a.forgot:hover {
     margin-left: 5%;
 }
 
-@media (max-width:1386px) {
+@media (max-width: 1386px) {
     .image {
         width: 300px;
         height: 260px;
     }
 }
 
-@media (max-width:1195px) {
+@media (max-width: 1195px) {
     .image {
         width: 250px;
         height: 220px;
@@ -306,15 +328,15 @@ a.forgot:hover {
     }
 }
 
-@media (max-width:990px) {
+@media (max-width: 990px) {
     .image {
         width: 190px;
         height: 170px;
-        transform: translateY(180px)
+        transform: translateY(180px);
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .image {
         width: 220px;
         height: 200px;
@@ -331,7 +353,7 @@ a.forgot:hover {
     }
 }
 
-@media (max-width:785px) {
+@media (max-width: 785px) {
     .image {
         width: 190px;
         height: 170px;
@@ -339,7 +361,7 @@ a.forgot:hover {
     }
 }
 
-@media (max-width:542px) {
+@media (max-width: 542px) {
     .image {
         width: 180px;
         height: 160px;
@@ -354,6 +376,15 @@ a.forgot:hover {
         border-radius: 0;
         margin-top: 0;
     }
+    p.Or {
+        position: relative;
+        left: 118px;
+        background: #dddddd;
+        width: 30px;
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
     .btn-solid {
         margin: 0;
     }
@@ -362,7 +393,7 @@ a.forgot:hover {
     }
 }
 
-@media (max-width:485px) {
+@media (max-width: 485px) {
     .container:before {
         display: none;
     }

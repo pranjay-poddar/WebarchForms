@@ -39,7 +39,7 @@
 /* Handle on hover */
 
  ::-webkit-scrollbar-thumb:hover {
-    background: #5c5c5c;
+    background: #bebebe;
 }
 
 
@@ -87,18 +87,18 @@
     /* 0 width - change this with JavaScript */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 3;
     /* Stay on top */
     top: 0;
     /* Stay at the top */
     left: 0;
-    background-color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(#2F58C1 0%, #00B1C5 99.97%);
     /* Black*/
     overflow-x: hidden;
     /* Disable horizontal scroll */
     padding-top: 60px;
     /* Place content 60px from the top */
-    transition: 0.5s;
+    transition: 0.2s;
     /* 0.5 second transition effect to slide in the sidenav */
 }
 
@@ -109,9 +109,10 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #d1d1d1;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
+    z-index: 3;
 }
 
 
@@ -129,6 +130,8 @@
     left: 20px;
     top: 10px;
     font-size: 20px;
+    z-index: 2;
+    color: black;
 }
 
 .sidenav .closebtn {
@@ -417,23 +420,27 @@ ul.btn li:last-child {
 .header {
     width: 100%;
     height: 90vh;
-    padding: 73px 80px;
     background-color: #000000;
     background-repeat: no-repeat;
 }
 
 .down-arrow a>i {
     /* background-color: #17094c; */
-    color: #b4b4b4;
+    color: #1F74C2;
+    z-index: 20;
     font-size: 6vh;
     text-align: center;
 }
 
+.down-arrow a>i:hover {
+    /* background-color: #17094c; */
+    color: black;
+}
+
 .white_bg {
-    background: rgb(236, 236, 236);
-    border-radius: 25px;
-    height: 80vh;
-    opacity: 0.9;
+    background: rgb(255, 255, 255, 0.95);
+    height: 100vh;
+    opacity: 1;
     padding: 40px 35px;
 }
 
@@ -451,17 +458,20 @@ ul.btn li:last-child {
 
 .text-bg {
     text-align: left;
+    margin-top: 15vh;
 }
 
 .text-bg span {
-    color: #17094c;
+    color: black;
     font-weight: bold;
     font-size: 300%;
     line-height: 50px;
 }
 
 .text-bg h1 {
-    color: #050505;
+    background: -webkit-linear-gradient(#2F58C1 0%, #00B1C5 99.97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 500%;
     line-height: 115%;
     padding-bottom: 6vh;
@@ -487,7 +497,7 @@ ul.btn li:last-child {
 
 .text_img figure img {
     width: 100%;
-    margin-top: 20vh;
+    margin-top: 25vh;
 }
 
 .carousel-caption {
@@ -525,7 +535,7 @@ ul.btn li:last-child {
 
 .read_more {
     font-size: 16px;
-    background-color: #17094c;
+    background: -webkit-linear-gradient(#2F58C1 0%, #00B1C5 99.97%);
     max-width: 160px;
     width: 100%;
     color: #fff !important;
@@ -539,8 +549,23 @@ ul.btn li:last-child {
 }
 
 .read_more:hover {
-    background-color: #030303!important;
+    background-color: #009980;
     color: white;
+}
+
+.object {
+    animation: MoveUpDown 3s linear infinite;
+    position: absolute;
+}
+
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 10px;
+    }
 }
 
 
@@ -550,7 +575,7 @@ ul.btn li:last-child {
 /** services section **/
 
 .services {
-    background-color: #070218;
+    background: -webkit-linear-gradient(#2F58C1 0%, #00B1C5 99.97%);
     background-repeat: no-repeat;
     height: auto;
     padding: 70px 0 60px 0;
@@ -562,7 +587,7 @@ ul.btn li:last-child {
 }
 
 .services .titlepage h2 {
-    color: #fff;
+    color: white;
 }
 
 .services_main {
@@ -578,7 +603,7 @@ ul.btn li:last-child {
 }
 
 .services_main h3 {
-    color: #fff;
+    color: #000;
     font-size: 30px;
     line-height: 25px;
     font-weight: bold;
@@ -590,30 +615,31 @@ ul.btn li:last-child {
 .services_main p {
     font-size: 17px;
     line-height: 30px;
-    color: #fff;
+    color: #000;
     margin-bottom: 30px;
 }
 
 .services .read_more {
-    background: transparent;
-    border: #fff solid 1px;
+    background: #009980;
+    border: #000 solid 1px;
     margin: 0 auto;
     transition: ease-in all 0.1s;
     text-transform: none;
 }
 
 .services .read_more:hover {
-    background: transparent !important;
+    background: #03e0bb !important;
+    color: black !important;
 }
 
 #ho_color:hover.services_main h3 {
-    color: #957dce;
+    color: #009980;
     transition: ease-in all 0.5s;
 }
 
 #ho_color:hover .read_more {
-    color: #957dce !important;
-    border: #957dce solid 1px;
+    color: #009980 !important;
+    border: #009980 solid 1px;
     transition: ease-in all 0.1s;
 }
 
@@ -622,11 +648,19 @@ ul.btn li:last-child {
     transition: ease-in all 0.5s;
 }
 
+.card {
+    width: 18rem;
+    background: rgb(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
 
 /* footer section start ----------------------- */
 
 .grow2 {
-    transition: all .1s ease-in-out;
+    transition: all .01s ease-in-out;
 }
 
 .grow2:hover {
@@ -634,7 +668,7 @@ ul.btn li:last-child {
 }
 
 footer {
-    background-color: #161616;
+    background-color: #353535;
     color: white;
     padding: 0;
 }
@@ -658,7 +692,7 @@ hr.light {
 }
 
 .webarch:hover {
-    color: #957dce;
+    color: #84c3fd;
 }
 
 footer a {
@@ -682,12 +716,12 @@ li {
 }
 
 li a:hover {
-    color: #957dce;
+    color: #84c3fd;
     text-decoration: none;
 }
 
 .webarch-website a:hover {
-    color: #957dce;
+    color: #84c3fd;
     text-decoration: none;
 }
 
@@ -766,22 +800,18 @@ ul.social_icon li {
         font-weight: 600;
         text-transform: uppercase;
     }
+    .card3 {
+        margin-top: 5%;
+    }
 }
 
 
 /* for mobile screens */
 
 @media (max-width: 576px) {
-    .header {
-        width: 100%;
-        height: 90vh;
-        padding: 75px 30px;
-    }
     .white_bg {
-        background: rgb(236, 236, 236);
-        border-radius: 25px;
-        height: 80vh;
-        opacity: 0.9;
+        background: rgb(255, 255, 255, 0.95);
+        height: 100vh;
         padding: 30px 35px;
     }
     .services {
@@ -823,6 +853,13 @@ ul.social_icon li {
         display: inline;
         justify-content: center;
         padding: 11px 20px;
+    }
+    .card {
+        margin-top: 10%;
+    }
+    .card3 {
+        margin-bottom: 8%;
+        margin-top: 2%;
     }
     .login {
         font-size: 15px;
@@ -936,7 +973,7 @@ ul.social_icon li {
         background-color: #17094c;
         max-width: 163px;
         width: 130%;
-        color: #fff !important;
+        color: #009980 !important;
         display: block;
         border-radius: 7px;
         font-weight: 400;

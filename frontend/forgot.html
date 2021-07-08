@@ -13,8 +13,10 @@
     />
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!-- Local Css -->
-    <link rel="stylesheet" href="./css/register.css" />
+    <link rel="stylesheet" href="./css/forgot.css" />
     <link rel="shortcut icon" type="logo" href="favicon.png" />
 
     <title>WebarchForms</title>
@@ -32,39 +34,27 @@
     <span onclick="openNav()" id="nav-bars"><i class="fas fa-bars" id="bars"></i></span>
     <section>
       <div class="container">
-        <div class="form-cont">
-          <form action="" class="register">
-            <h2 class="reg-heading text-center grow customfontbaloo"><img src="./images/logo.png" alt="webarch logo" class="me-2" />Register</h2>
-            <p class="customfontbaloo text-center">Create your account. It's free and only takes a minute.</p>
-            <div class="text-center form-input">
-              <i class="fa fa-user me-2"></i>
-              <input type="text" placeholder="Name" />
-            </div>
-            <div class="text-center form-input">
-              <i class="fas fa-envelope me-2"></i>
-              <input type="email" placeholder="Email" />
-            </div>
-            <div class="text-center form-input">
-              <i class="fas fa-lock me-2"></i>
-              <input type="password" placeholder="Password" />
-            </div>
-            <div class="text-center form-input">
-              <i class="fas fa-lock me-2"></i>
-              <input type="password" placeholder="Confirm Password" />
-            </div>
-            <div class="text-center">
-              <button type="submit" class="regbtn grow btn">Register</button>
-            </div>
-            <p class="Or text-center mb-1">OR</p>
-            <div class="googlereg d-flex justify-content-center">
-              <!-- <p class="social-text text-center pt-1 me-2 ms-5"></p> -->
-              <button><img class="g-img grow" src="./images/google.png" alt="google signin" />Sign up with Google</button>
-            </div>
-            <!-- <button type="submit" clsass="loginbtn btn my-0">Login</button> -->
-          </form>
-        </div>
-        <div>
-          <img src="./images/desk.png" class="desk-img" alt="desk image" />
+        <div class="forms-container">
+          <div class="login">
+            <form action="" class="login">
+              <h2 class="login text-center"><img src="./images/logo.png" alt="" /> Recover Password</h2>
+              <div class="input-field text-center">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" />
+              </div>
+
+              <div class="text-center">
+                <button type="submit" value="Login" class="btn-solid grow my-2">Reset</button>
+              </div>
+              <p class="social-text text-center mt-3 mb-0">Don't have an account?</p>
+              <div class="text-center">
+                <a href="./register.html" button class="btn">Register</a>
+              </div>
+            </form>
+          </div>
+          <div class="panel left-panel">
+            <img src="./images/desk.png" class="image" alt="desk image" />
+          </div>
         </div>
       </div>
     </section>
