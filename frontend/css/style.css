@@ -910,8 +910,8 @@ ul.social_icon li {
         font-size: 15px;
     }
     .head-1 {
-        height: 35px;
-        width: 35px;
+        height: 2.5rem;
+        width: 2.5rem;
     }
     .text-bg {
         text-align: center;
@@ -922,10 +922,10 @@ ul.social_icon li {
         font-weight: 400;
     }
     .text-bg span {
-        font-size: 30px;
+        font-size: 2.2rem;
     }
     .text-bg h1 {
-        font-size: 38px;
+        font-size: 3rem;
         line-height: 43px;
     }
     .footer_inner1 {
