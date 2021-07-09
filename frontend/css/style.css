@@ -791,6 +791,7 @@ ul.social_icon li {
         line-height: 20px;
         text-align: center;
         padding: 10px 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .text-bg h1 {
         color: #050505;
@@ -954,7 +955,7 @@ ul.social_icon li {
 @media (min-width: 1390px) {
     .text-bg {
         text-align: left;
-        margin-top: 6vmin;
+        margin-top: 15vmin;
     }
     .text-bg h1 {
         color: #050505;
@@ -973,7 +974,7 @@ ul.social_icon li {
         background-color: #17094c;
         max-width: 163px;
         width: 130%;
-        color: #009980 !important;
+        color: white !important;
         display: block;
         border-radius: 7px;
         font-weight: 400;
@@ -996,6 +997,6 @@ ul.social_icon li {
         position: absolute;
         left: 20px;
         top: 10px;
-        font-size: 40px;
+        font-size: 30px;
     }
 }
