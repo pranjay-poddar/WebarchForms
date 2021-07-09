@@ -17,22 +17,20 @@
 ::-webkit-scrollbar {
     width: 8px;
     height: 5px;
-    border-radius: 50%;
 }
 
 
 /* Track */
 
  ::-webkit-scrollbar-track {
-    background: rgb(0, 0, 0);
-    border-radius: 50%;
+    background: rgb(119, 119, 119);
 }
 
 
 /* Handle */
 
  ::-webkit-scrollbar-thumb {
-    background: #252525;
+    background: #bbbbbb;
 }
 
 
@@ -75,6 +73,17 @@
 
 * {
     box-sizing: border-box !important;
+}
+
+
+/* navbar  */
+
+.navbar-brand {
+    margin-left: 2%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
 }
 
 
@@ -167,12 +176,11 @@ html {
 }
 
 body {
-    background: #000000;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #fff;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 1.80857;
     font-weight: normal;
 }
@@ -420,7 +428,7 @@ ul.btn li:last-child {
 .header {
     width: 100%;
     height: 90vh;
-    background-color: #000000;
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
 }
 
@@ -438,8 +446,8 @@ ul.btn li:last-child {
 }
 
 .white_bg {
-    background: rgb(255, 255, 255, 0.95);
-    height: 100vh;
+    background: rgb(255, 255, 255);
+    height: 90vh;
     opacity: 1;
     padding: 40px 35px;
 }
@@ -458,7 +466,7 @@ ul.btn li:last-child {
 
 .text-bg {
     text-align: left;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 .text-bg span {
@@ -622,6 +630,7 @@ ul.btn li:last-child {
 .services .read_more {
     background: #009980;
     border: #000 solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0 auto;
     transition: ease-in all 0.1s;
     text-transform: none;
@@ -650,9 +659,10 @@ ul.btn li:last-child {
 
 .card {
     width: 18rem;
-    background: rgb(255, 255, 255, 0.95);
+    background: rgb(255, 255, 255);
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     text-align: center;
 }
 
@@ -747,6 +757,10 @@ ul.social_icon li {
     padding: 0;
 }
 
+#nav-bars {
+    display: none;
+}
+
 
 /*--- Bootstrap Padding Fix --*/
 
@@ -763,9 +777,18 @@ ul.social_icon li {
 
 /* for larger screens */
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
     .text_img {
         display: none;
+    }
+    #nav-bars {
+        display: block;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-brand {
+        margin-left: 95%;
     }
 }
 
@@ -773,6 +796,12 @@ ul.social_icon li {
 /* for tablets */
 
 @media (max-width: 768px) {
+    .navbar-brand {
+        margin-left: 90%;
+    }
+    #nav-bars {
+        display: block;
+    }
     .footer_image img {
         z-index: 10;
         height: 80px;
@@ -810,6 +839,9 @@ ul.social_icon li {
 /* for mobile screens */
 
 @media (max-width: 576px) {
+    .navbar-brand {
+        margin-left: 85%;
+    }
     .white_bg {
         background: rgb(255, 255, 255, 0.95);
         height: 100vh;
