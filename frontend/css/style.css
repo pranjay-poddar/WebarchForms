@@ -181,7 +181,7 @@
     #nav-bars {
         position: absolute;
         left: 20px;
-        top: 10px;
+        top: 15px;
         font-size: 20px;
         z-index: 2;
         color: rgb(255, 255, 255);
@@ -670,6 +670,12 @@
         }
         .nav-button-mobile {
             width: 40% !important;
+        }
+        .navbar {
+            height: 10vh;
+        }
+        .white_bg {
+            height: 90vh;
         }
         .services {
             padding: 20px 0 0px 0;
