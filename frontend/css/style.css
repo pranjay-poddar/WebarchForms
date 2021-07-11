@@ -109,6 +109,7 @@
     
     .navbar {
         background: #00222D;
+        height: 10vh;
     }
     
     .navbar-brand {
@@ -268,7 +269,7 @@
     
     .white_bg {
         background: rgb(255, 255, 255);
-        /* height: 90vh; */
+        height: 90vh;
         opacity: 1;
         padding: 40px 35px;
     }
@@ -570,7 +571,10 @@
             display: none;
         }
         .navbar {
-            height: 65px;
+            height: 10vh;
+        }
+        .white_bg {
+            height: 90vh;
         }
         .text-bg {
             margin-top: 1vh;
@@ -811,5 +815,11 @@
             left: 20px;
             top: 10px;
             font-size: 30px;
+        }
+        .white_bg {
+            height: 90vh;
+        }
+        .navbar {
+            height: 10vh;
         }
     }
