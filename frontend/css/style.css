@@ -367,7 +367,7 @@
         font-family: Montserrat;
         font-size: 18px;
         font-style: normal;
-        margin-top: 3%;
+        margin-top: 5%;
         font-weight: 700;
         line-height: 22px;
     }
@@ -487,6 +487,10 @@
         flex-direction: row;
         margin-left: 2px;
         padding: 0;
+    }
+    
+    .about-para-link {
+        margin-bottom: 8vh;
     }
     
     #nav-bars {
@@ -625,6 +629,14 @@
         .about-img-desktop {
             display: none;
         }
+        .about-heading {
+            color: black;
+            font-family: Montserrat;
+            margin-top: 7vh;
+        }
+        .about-para-link {
+            margin-bottom: 8vh;
+        }
     }
     /* for mobile screens */
     
@@ -679,6 +691,12 @@
         .about-para2 {
             text-align: center;
             margin-bottom: 8%;
+        }
+        .about-para-link {
+            margin-bottom: 10vh;
+        }
+        #about {
+            margin-bottom: 8vh;
         }
         .text-bg {
             margin-top: 1vh;
