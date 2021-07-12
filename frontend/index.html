@@ -29,24 +29,13 @@
 
 <body class="main-layout">
     <!-- loader  -->
-    <div class="loader_bg">
+    <!-- <div class="loader_bg">
         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-    </div>
+    </div> -->
     <!-- end loader -->
     <!-- header -->
     <header>
-        <!-- header inner -->
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="./login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
-            <a href="#about"><i class="fas fa-users"></i> About Us</a>
-            <a href="#services"><i class="fas fa-briefcase"></i> Our Products</a>
-            <a href="#contact"><i class="fas fa-fax"></i> Contact Us</a>
-            <a href="./index.html"><img src="./images/logo.png" width="80px" height="80px" /></a>
-        </div>
-        <!-- Use any element to open the sidenav -->
-        <span onclick="openNav()" id="nav-bars"><i class="fas fa-bars" ></i></span>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand grow" href="./index.html"><img src="./images/logo.png" width="40px" height="40px" /></a>
             <a class="nav-link btn nav-button-mobile" href="./login.html">Try Now</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,13 +44,16 @@
             <div class="collapse ml-auto navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link middle" href="#about">About Us <span class="sr-only">(current)</span></a>
+                        <a class="nav-link middle" href="#about"><i class="fas fa-users"></i> About Us <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link middle" href="#services">Our Products </a>
+                        <a class="nav-link middle" href="#services"><i class="fas fa-briefcase"></i> Our Products </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn nav-button1" href="./login.html">Try Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./index.html"><img src="./images/logo.png" class="rotate nav-mobile-logo" width="80px" height="80px" /></a>
                     </li>
 
                 </ul>
