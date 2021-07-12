@@ -526,6 +526,13 @@
             outline: none;
             color: white;
         }
+        body {
+            position: relative;
+        }
+        .navbar {
+            position: absolute;
+            width: 100%;
+        }
         .nav-mobile-logo {
             display: block;
         }
@@ -539,7 +546,7 @@
             height: 10vh;
         } */
         .white_bg {
-            height: 90vh;
+            height: 100vh;
         }
         .text-bg {
             margin-top: 1vh;
@@ -557,7 +564,6 @@
         }
         .banner_mobile {
             width: 30% !important;
-            margin-top: 0;
         }
         .nav-button-mobile {
             color: black !important;
@@ -573,8 +579,12 @@
             background: #FFD700 !important;
             display: block;
         }
+        #about {
+            margin: 5vh 0;
+        }
         .banner_img_mobile {
             display: block;
+            margin-top: 5vh !important;
         }
         .banner_img_desktop {
             display: none;
@@ -613,8 +623,12 @@
             font-size: 2.8vh;
         }
         .banner_mobile {
-            width: 30% !important;
+            width: 38% !important;
             margin-top: 0;
+        }
+        .banner_img_mobile {
+            display: block;
+            margin-top: 6vh !important;
         }
         .about-img-mobile {
             display: block;
@@ -648,9 +662,13 @@
             width: 40% !important;
         }
         .white_bg {
-            height: 90vh;
+            height: 100vh;
         }
-        .services {
+        .banner_img_mobile {
+            display: block;
+            margin-top: 9vh !important;
+        }
+        s .services {
             padding: 20px 0 0px 0;
             margin-top: 0px;
             height: auto;
@@ -767,7 +785,7 @@
             height: 160px;
         }
         .white_bg {
-            height: 90vh;
+            height: 100vh;
         }
         .text-bg p {
             line-height: 3vh;
@@ -777,6 +795,10 @@
         .banner_mobile {
             width: 70% !important;
             margin-top: 0;
+        }
+        .banner_img_mobile {
+            display: block;
+            margin-top: 12vh !important;
         }
     }
     
