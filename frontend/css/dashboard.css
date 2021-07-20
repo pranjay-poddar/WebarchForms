@@ -149,12 +149,34 @@ button i {
     margin-top: 5vh;
 }
 
+.list-header {
+    padding-right: 0%;
+    margin-right: 45px;
+}
+
+.list-body {
+    margin-right: 35px;
+}
+
+.list-body2 {
+    margin-right: 15px;
+}
+
+.list-group-flush {
+    width: 100% !important;
+}
+
 .modal-content {
     box-sizing: border-box;
-    width: 25%;
+    width: 35%;
     margin-left: 1rem;
     padding: 1rem;
     border-radius: 10px;
+}
+
+.form-name-input {
+    border: 1px black;
+    border-radius: 20px !important;
 }
 
 .modal-btn {
@@ -267,62 +289,6 @@ button i {
     display: none;
 }
 
-
-/* @media (max-width:1111px){
-    .column button{
-        width:180px;
-        display: inline-block;
-        align-items: center;
-        text-align: center;
-    }
-}
-@media (max-width:861px){
-    .column button{
-        width:100px;
-        display: inline-block;
-        align-items: center;
-        text-align: center;
-    }
-    .grid-container{
-        padding-right:55px;
-        padding-left:55px;
-        justify-content: center;
-        background-color:#c4c4c4;
-        border-radius: 5px;
-        display:grid;
-        grid-template-columns: 30px 30px 30px 30px 30px;
-        grid-column-gap: 5px;
-    }
-}
-@media (max-width:793px){
-    .container{
-        display: none;
-    }
-    .column button{
-        width:90px;
-        display: inline-block;
-        align-items: center;
-        text-align: center;
-    }
-    .grid-container{
-        padding-right:55px;
-        padding-left:55px;
-        justify-content: center;
-        background-color:#c4c4c4;
-        border-radius: 5px;
-        display:grid;
-        grid-template-columns: 30px 30px 30px 30px 30px;
-        grid-column-gap: 5px;
-    }
-    .search-wrapper input{
-        display:flex;
-        padding:0.5rem;
-        border:none;
-        outline:none;
-        width: 200px;
-    }
-} */
-
 @media (max-width: 1390px) {
     .grid-container {
         width: 25rem;
@@ -426,34 +392,16 @@ button i {
         width: 10rem;
     }
     .grid-item {
-        width: 10rem;
+        width: 8rem;
     }
     header h1 {
         padding: 1.4rem 1.2rem;
     }
-}
-
-@media (max-width: 795px) {
-    .col-1 img {
-        display: inline-block;
-        width: 400px;
-        max-height: 100%;
+    .container.container-list {
+        padding: 0 !important;
     }
-    .column button {
-        width: 100px;
-        display: inline-block;
-        align-items: center;
-        text-align: center;
-    }
-    .grid-container {
-        padding-right: 1rem;
-        padding-left: 0;
-        grid-template-rows: 40px 40px 40px 40px 40px;
-        grid-column-gap: 5px;
-        width: 10rem;
-    }
-    .grid-item {
-        width: 10rem;
+    .list-group-item {
+        padding: 0 !important;
     }
     .search-wrapper input {
         display: flex;
@@ -464,16 +412,39 @@ button i {
     }
 }
 
-@media (max-width: 723px) {
-    .col-1 img {
-        display: inline-block;
-        width: 600px;
-        max-height: 100%;
+@media (max-width: 577px) {
+    .nav-heading {
+        display: none;
+    }
+    .list-header {
+        padding-right: 0%;
+        margin-right: 0px;
+    }
+    .list-body {
+        margin-right: 0px;
+    }
+    .list-body2 {
+        margin-right: 0px;
+    }
+    .modal-content {
+        box-sizing: border-box;
+        width: 90%;
+        margin-left: 1rem;
+        padding: 2rem;
+        border-radius: 10px;
     }
     #menu {
         display: block;
-        top: 0.9rem;
-        right: 5rem;
+        top: 10px;
+        left: 3px;
+        background: none;
+    }
+    header {
+        z-index: 2;
+    }
+    .card {
+        width: 15rem;
+        margin-top: 5vh;
     }
     .grid-container {
         padding-right: 0;
@@ -486,85 +457,13 @@ button i {
         width: 20rem;
         text-align: center;
     }
-    .column {
-        position: fixed;
-        left: 3%;
-        max-width: 50%;
-        z-index: 1000;
-    }
     .column.toggle {
-        left: 3%;
+        left: 0%;
     }
-    .search-wrapper input {
-        display: flex;
-        padding: 0.5rem;
-        border: none;
-        outline: none;
-        width: 180px;
-    }
-    .row {
-        height: 160vh;
-    }
-    .column-right {
-        max-width: 92%;
-        position: relative;
-        left: 4%;
-    }
-}
-
-@media (max-width: 700px) {
     .col-1 img {
         display: inline-block;
         width: 400px;
         max-height: 100%;
-    }
-    #menu {
-        display: block;
-        top: 0.9rem;
-        right: 5rem;
-    }
-    .grid-container {
-        padding-right: 0;
-        padding-left: 0;
-        grid-template-rows: 70px 70px 70px 70px 70px;
-        grid-column-gap: 5px;
-        width: 21rem;
-    }
-    .grid-item {
-        width: 20rem;
-        text-align: center;
-    }
-    .column {
-        position: fixed;
-        left: -120%;
-        max-width: 61%;
-        z-index: 1000;
-    }
-    .column.toggle {
-        left: 3%;
-    }
-    .search-wrapper input {
-        display: flex;
-        padding: 0.5rem;
-        border: none;
-        outline: none;
-        width: 88px;
-    }
-    .row {
-        height: 190vh;
-    }
-}
-
-@media (max-width: 595px) {
-    .col-1 img {
-        display: inline-block;
-        width: 400px;
-        max-height: 100%;
-    }
-    #menu {
-        display: block;
-        top: 0.9rem;
-        right: 1rem;
     }
     .grid-container {
         padding-right: 0;
@@ -578,22 +477,17 @@ button i {
         text-align: center;
     }
     .column {
-        position: fixed;
-        left: -120%;
-        max-width: 67%;
-    }
-    .column.toggle {
-        left: 3%;
+        position: absolute;
+        left: -140%;
+        max-width: 100%;
+        z-index: 2;
     }
     .search-wrapper input {
         display: flex;
         padding: 0.5rem;
         border: none;
         outline: none;
-        width: 88px;
-    }
-    .row {
-        height: 240vh;
+        width: 50%;
     }
 }
 
@@ -611,6 +505,25 @@ button i {
         top: 0.9rem;
         right: 1rem;
     }
+    .modal-content {
+        box-sizing: border-box;
+        width: 90%;
+        margin-left: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .form-name-input {
+        border: 1px black;
+        border-radius: 20px !important;
+    }
+    .modal-btn {
+        float: right;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .modal-btn button {
+        width: 5rem !important;
+    }
     .grid-container {
         padding-right: 0;
         padding-left: 0;
@@ -622,26 +535,18 @@ button i {
         width: 15rem;
         text-align: center;
     }
-    .column {
-        position: fixed;
-        left: -120%;
-        max-width: 66%;
-    }
     .column.toggle {
-        left: 4%;
+        left: 0%;
     }
     .search-wrapper input {
         display: flex;
         padding: 0.5rem;
         border: none;
         outline: none;
-        width: 88px;
+        width: 50%;
     }
     .search-wrapper img {
         margin-right: 0;
-    }
-    .row {
-        height: 292vh;
     }
     .list-group-item {
         padding: 0;
@@ -657,11 +562,6 @@ button i {
         width: 250px;
         max-height: 100%;
     }
-    #menu {
-        display: block;
-        top: 0.9rem;
-        right: 0;
-    }
     .grid-container {
         padding-right: 0;
         padding-left: 0;
@@ -673,26 +573,15 @@ button i {
         width: 16rem;
         text-align: center;
     }
-    .column {
-        position: fixed;
-        left: -120%;
-        max-width: 81%;
-    }
-    .column.toggle {
-        left: 5%;
-    }
     .search-wrapper input {
         display: flex;
         padding: 0.5rem;
         border: none;
         outline: none;
-        width: 88px;
+        width: 50%;
     }
     .search-wrapper img {
         margin-right: 0;
-    }
-    .row {
-        height: 320vh;
     }
     header h1 {
         padding: 1rem 0.2rem;
