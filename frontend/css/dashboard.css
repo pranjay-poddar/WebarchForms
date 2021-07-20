@@ -54,6 +54,15 @@ body {
     margin-right: 0;
 }
 
+.tog-btn {
+    font-size: 1.5rem;
+}
+
+.tog-btn:hover {
+    font-size: 1.7rem;
+    color: #1f74c2;
+}
+
 .main-content {
     background-color: white;
 }
